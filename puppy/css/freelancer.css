@@ -449,10 +449,4 @@ footer {
 .btn:focus {
   outline: none; }
 
-.video {
-  background-color: black;
-}
 
-.local-vid {
-  display: none;
-}
