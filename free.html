@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <script src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
 
-    <title> PuppyTime </title>
+    <title> Mode </title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/freelancer.min.css" rel="stylesheet">
 
 
 
@@ -30,9 +29,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="background-color:black">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"> PuppyTime </a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"> Mode </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa fa-home"></i>
+          <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -53,113 +52,56 @@
       </div>
     </nav>
 
-    <!-- Header -->
-    <header class="masthead" style="background-color:white; padding-top:65px">
-      <div class="container" style="background-color:white">
-        <li class="page-scroll" style="list-style:none">
-          <a href="#why"><img class="img-fluid" src="img/PuppyTime.png" alt=""></a>
-        </li>
-      </div>
-    </header>
-
     <!-- Portfolio Grid Section -->
     <section id="why">
       <div class="container">
-        <h2 class="text-center" style="font-size:20px">PuppyTime</h2>
+        <h2 class="text-center" style="font-size:20px">Free Mode</h2>
         <hr class="star-primary">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p style="font-size:23px;">Socializing with shelter dogs makes them happier and more adoptable.</p>
-            <p style="font-size:23px;">PuppyTime fills your need for cuteness while letting you help a dog at the same time.</p>
-            <p style="font-size:23px;">You can donate to the shelter and even adopt the dogs.</p>
-          </div>
+            <p style="font-size:18px;text-align:center;">Of need and qualify for free Mode through one of our partner organizations?<br/>Sign up here.</p>
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="dropdown" style="padding-bottom:10px;text-align:center">
+                <button class="btn btn-lg btn-secondary dropdown-toggle" style="background-color:darkgray; border:0px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Greater Hartford Arts Council
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Greater Hartford Arts Council</a>
+                  <a class="dropdown-item" href="#">Other</a>
+                </div>
+              </div>
+              <div class="control-group" >
+                <div class="form-group floating-label-form-group controls" style="padding-bottom:0px;">
+                  <label>Etsy Username</label>
+                  <input class="form-control" id="name" type="text" style="font-size:20px;" placeholder="Etsy Username" required data-validation-required-message="Please enter your Etsy username.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls" style="padding-bottom:0px;">
+                  <label>Eventbrite Username</label>
+                  <input class="form-control" id="email" type="text" style="font-size:20px;" placeholder="Eventbrite Username" required data-validation-required-message="Please enter your Eventbrite username.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls" style="padding-bottom:0px;">
+                  <label>Mobile Phone Number</label>
+                  <input class="form-control" id="phone" type="tel" style="font-size:20px;" placeholder="Mobile Phone Number" required data-validation-required-message="Please enter your mobile phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div id="success"></div>
+              <br/>
+              <div class="form-group" style="text-align:center;">
+                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton" style="background-color:#FF004E;border:0px;"><i class="fa fa-handshake-o"></i> Sign Up</button>
+              </div>
+            </form>
           <div class="col-lg-8 mx-auto text-center">
-            <a href="#friend" class="btn btn-lg btn-success" style="background-color:#185000; border:0px;">
-              Meet the puppies!
+            <a href="#signup" class="btn btn-lg btn-success" style="background-color:#FF004E; border:0px;">
+              <i class="fa fa-handshake-o"></i>
+              Buy
             </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Grid Section -->
-    <section id="friend">
-      <div class="container">
-        <h2 class="text-center" style="font-size:18px">Pick Your Pup</h2>
-        <hr class="star-primary">
-        <div class="row">
-          <div class="col-lg-4 ml-auto" style="text-align:center">
-            <p style="text-align:center; font-size:14px;">Which furry friend would you like to chat with?</p>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval=false>
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <br/>
-                  <br/>
-                  <img class="img-fluid" src="img/dog1.jpg" alt="" style="width:240px;">
-                  <p style="font-size:14px;"><b>Juniper</b></br>everyone's best friend</p>
-                </div>
-                <div class="carousel-item">
-                  <br/>
-                  <br/>
-                  <img class="img-fluid" src="img/dog2.jpg" alt="" style="width:240px;">
-                  <p style="font-size:14px;"><b>Henry</b></br>my stick. my stick!</p>
-                </div>
-                <div class="carousel-item">
-                  <br/>
-                  <br/>
-                  <img class="img-fluid" src="img/dog3.jpg" alt="" style="width:240px;">
-                  <p style="font-size:14px;"><b>Jenny</b></br>my job is to fetch</p>
-                </div>
-                <br/>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="background-color:lightgrey;">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only" style="color:black">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="background-color:lightgrey;">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 mx-auto text-center">
-            <a href="#signup" class="btn btn-lg btn-success" style="background-color:#185000; border:0px;">
-              Chat
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Grid Section -->
-    <section id="signup">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-
-                
-                  <video class="w-100 p-3" id="localVideo" autoplay></video>
-               
-                  
-             
-
-              </div>
-              <div class="col-lg-8 mx-auto text-center">
-                <a href="#signup" class="btn btn-lg btn-success" style="background-color:#185000; border:0px;">
-                  Donate
-                </a>
-                <a href="#signup" class="btn btn-lg btn-success" style="background-color:#185000; border:0px;">
-                  Adopt
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -171,6 +113,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
+              MODE
             </div>
           </div>
         </div>
@@ -457,8 +400,6 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
-
-    <script src="scripts/script.js"></script>
 
   </body>
 
