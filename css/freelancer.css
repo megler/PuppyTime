@@ -454,6 +454,28 @@ video {
   background-color: black;   
 }
 
+.form-format {
+  text-align: center;
+  margin-top: 0;
+}
+
+.donate-section {
+  padding-bottom: 0;
+}
+
+.donate-text {
+  margin-bottom: 4rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+.donate-form {
+  padding-top:  0;
+}
+
+.donate-img {
+  padding-top: 2rem;
+}
 
 
 
