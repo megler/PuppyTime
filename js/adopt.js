@@ -17,7 +17,7 @@ $(document).ready(function(){
     success: function( response ) {
       console.log(response); // debugging
       var dogName = response.petfinder.pet.name.$t;
-      var img = response.petfinder.pet.media.photos.photo[0].$t;
+      var img = response.petfinder.pet.media.photos.photo[2].$t;
       var id = response.petfinder.pet.id.$t;
 
       var newName = document.createElement('a');
