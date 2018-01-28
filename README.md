@@ -14,6 +14,8 @@ PuppyTime is a mobile website that enables folks to live video chat with shelter
 ## How we built it
 We built the PuppyTime mobile website with a modified bootstrap template, javascript live video, and PayPayl and PetFinder RESTful APIs. The “give a treat” button calls a RESTful service that runs a treat dispensing routine on the Arduino 101 with Grove Shield and stepper motor (written in C).
 
+PuppyTime is running on Amazon Web Services - Route 53, CloudWatch, and S3.
+
 ## Challenges we ran into
 Software to work with Arduino hardware
 Cable shorts when connecting Arduino components
@@ -35,3 +37,6 @@ Learning new languages/tools
 - Design fun video filters as a paid feature to benefit local shelters
 - Incorporate Amazon Marketplace to send donations like dog food, treats, toys, etc.
 - Allow users to save their favorite furry friends and chat with them again
+
+## Live Demo Note
+- Please run as mobile in dev tools
