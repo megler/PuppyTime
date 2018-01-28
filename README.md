@@ -8,7 +8,7 @@ PuppyTime changes that!
 
 Talking and interacting with shelter dogs improves their wellbeing and makes them more adoptable. We wanted to provide a new way to benefit shelter dogs and bring joy to the humans that chat with them.
 
-##What it does
+#What it does
 PuppyTime is a mobile website that enables folks to live video chat with shelter dogs and give them treats. This gives the dog more social time and builds a personal connection between the user and the dog to increase donations and adoption.
 
 ##How we built it
