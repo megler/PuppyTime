@@ -1,6 +1,11 @@
 # PuppyTime
 Live Video with Shelter Pets
 
+# Winner SheHacks Boston 2018
+- Most Entreprenurial Hack
+- Major League Hacking - AWS (Best use of AWS)
+- https://devpost.com/software/puppytime
+
 ## Inspiration
 3 million dogs enter shelters nationwide each year. However, less than half are adopted into new homes. Some shelter dogs may receive human interaction 3 times a day for walks, but are then left by themselves.
 
