@@ -44,5 +44,5 @@ Learning new languages/tools
 - Allow users to save their favorite furry friends and chat with them again
 
 ## Live Demo Note
-- Please run as mobile in dev tools
+- Please run as mobile in dev tools - must have working camera for tool to work. Will not render correctly unless running as mobile in dev tools.
 - https://megler.github.io/PuppyTime/
